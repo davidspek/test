@@ -1,0 +1,3 @@
+{{- if .Values.kfserving.enabled }}
+{{ tpl (.Files.Get "files/kfserving/kustomization.kubernetes-helm-yaml") . }}
+{{- end }}

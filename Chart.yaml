@@ -1,0 +1,13 @@
+apiVersion: v2
+name: kubeflow
+version: 0.1.0
+appVersion: 1.3.0
+icon: https://www.kubeflow.org/favicons/favicon-32x32.png
+home: https://www.kubeflow.org/
+maintainers:
+  - name: thesuperzapper
+    url: https://github.com/thesuperzapper
+sources:
+  - https://github.com/kubeflow/manifests
+keywords:
+  - kubeflow
